@@ -45,7 +45,9 @@ if (_tempType isEqualTo "mil") then {
 		
 		default {[]};
 	});
-} else {
+}; 
+
+if (_tempType isEqualTo "civ") then {
 	_templates append (switch (_bldType) do {
 		// Vanilla
 		#include "..\templates\civ_vanilla.sqf"
@@ -59,6 +61,16 @@ if (_tempType isEqualTo "mil") then {
 		default {[]};
 	});
 };
+
+if (_tempType isEqualTo "cbrn") then {
+	_templates append (switch (_bldType) do {
+		// Vanilla
+		#include "..\templates\cbrn_vanilla.sqf"
+		
+		default {[]};
+	});
+};
+
 
 private _before = count _templates;
 

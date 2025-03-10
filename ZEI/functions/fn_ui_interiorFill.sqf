@@ -6,7 +6,28 @@ params [
 		["_detail", 1]
 	];
 
-private _fillType = if (_type isEqualTo 0) then { "mil" } else { "civ" };
+diag_log _type;
+
+private "_fillType";
+if (_type isEqualTo 0) then 
+	{ 
+		_fillType = "mil"; 
+		diag_log _fillType;
+	};
+
+if (_type isEqualTo 1) then 
+	{ 
+		_fillType = "civ"; 
+		diag_log _fillType;
+	}; 
+if (_type isEqualTo 2) then
+	{ 
+		_fillType = "cbrn"; 
+		diag_log _fillType;
+	};
+
+
+
 private _fillArea = if (_area isEqualTo 0) then { FALSE } else { TRUE };
 
 // Save UI Settings for next time
