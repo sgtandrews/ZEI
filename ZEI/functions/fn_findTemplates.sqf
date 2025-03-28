@@ -62,15 +62,23 @@ if (_tempType isEqualTo "civ") then {
 	});
 };
 
-if (_tempType isEqualTo "cbrn") then {
+if (_tempType isEqualTo "optre_civ") then {
 	_templates append (switch (_bldType) do {
-		// Vanilla
-		#include "..\templates\cbrn_vanilla.sqf"
+		// OPTRE Vanilla
+		#include "..\templates\optre_civilian.sqf"
 		
 		default {[]};
 	});
 };
 
+if (_tempType isEqualTo "optre_mil") then {
+	_templates append (switch (_bldType) do {
+		// OPTRE Military
+		#include "..\templates\optre_military.sqf"
+		
+		default {[]};
+	});
+};
 
 private _before = count _templates;
 
