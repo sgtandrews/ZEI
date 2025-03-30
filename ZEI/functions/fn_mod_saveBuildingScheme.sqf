@@ -72,8 +72,9 @@ switch _mode do {
 				};
 			};
 			_tempArr = _tempArr - [objNull];
-			
-			copyToClipboard format ["%3%1: %2", _keyObjType, _tempArr, _mod];
+			_br = toString [13,10];
+
+			copyToClipboard format ["%3%1: %2 %4", _keyObjType, _tempArr, _mod, _br];
 			[format["'%1' written to clipboard (%2). Paste and save or send it to the mod developer!", _keyObjType, count _tempArr], "INFO"] call ZEI_fnc_misc_logMsg;
 			if !((_keyObj call BIS_fnc_getPitchBank) isEqualTo [0,0]) then {
 				// Warn if building has been rotated (objects are not offset according to the building)
