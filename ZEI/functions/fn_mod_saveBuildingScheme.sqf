@@ -74,18 +74,20 @@ switch _mode do {
 			_tempArr = _tempArr - [objNull];
 			_br = toString [13,10];
 
-			copyToClipboard format ["%3%1: %2 %4", _keyObjType, _tempArr, _mod, _br];
+			copyToClipboard format ['case "%3%1": {%4        [%4            %2%4        ];%4    };', _keyObjType, _tempArr, _mod, _br];
 			[format["'%1' written to clipboard (%2). Paste and save or send it to the mod developer!", _keyObjType, count _tempArr], "INFO"] call ZEI_fnc_misc_logMsg;
 			if !((_keyObj call BIS_fnc_getPitchBank) isEqualTo [0,0]) then {
 				// Warn if building has been rotated (objects are not offset according to the building)
 				// TODO: Add support for all building angles?
 				["Building is not flat. Objects may be saved incorrectly!", "WARNING"] call ZEI_fnc_misc_logMsg;
 			};
+			/*
 			if (count _tempArr > 130) then {
 				// Warn if too many objects (causes clipboard to cut off text - 8191 length?)
 				// TODO: Add line break when scheme is too large and will break clipboard?
 				["High number of objects! Not all objects may have been copied due to clipboard limitations.", "WARNING"] call ZEI_fnc_misc_logMsg;
 			};
+			*/
 			if (worldName != "VR") then {
 				["World is not VR. Positions saved may not be accurate.", "WARNING"] call ZEI_fnc_misc_logMsg;
 			};
