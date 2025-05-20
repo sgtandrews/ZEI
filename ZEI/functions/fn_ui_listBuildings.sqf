@@ -42,35 +42,72 @@ _fnc_createTemplateMarker = {
 	
 	// If building has positions check if it has got matching templates.
 	if (count (_bld buildingPos -1) > 0) then {
-		_civCount = count ([_bld, "civ", TRUE] call ZEI_fnc_findTemplates);
 		_milCount = count ([_bld, "mil", TRUE] call ZEI_fnc_findTemplates);
+		_civCount = count ([_bld, "civ", TRUE] call ZEI_fnc_findTemplates);
+		_cbrnCount = count ([_bld, "cbrn", TRUE] call ZEI_fnc_findTemplates);
+		/*
+		_optrecivCount = count ([_bld, "optre_civ", TRUE] call ZEI_fnc_findTemplates);
+		_optremilCount = count ([_bld, "optre_mil", TRUE] call ZEI_fnc_findTemplates);
+		*/
 				
 		switch (_filter) do {
-			// Civilian Only
-			case 1: {
-				if (_civCount > _fCount) then { 
-					_skip = TRUE;
-				} else {
-					[_civCount, _bld, 10, "Sign_Arrow_Large_Pink_F"] spawn _fnc_createTemplateMarker
-				};
-			};
-						
+
 			// Military Only
-			case 2: {
+			case 1: {
 				if (_milCount > _fCount) then { 
 					_skip = TRUE;
 				} else {
 					[_milCount, _bld, 15, "Sign_Arrow_Large_F"] spawn _fnc_createTemplateMarker
 				};
 			};
+			// Civilian Only
+			case 2: {
+				if (_civCount > _fCount) then { 
+					_skip = TRUE;
+				} else {
+					[_civCount, _bld, 10, "Sign_Arrow_Large_Pink_F"] spawn _fnc_createTemplateMarker
+				};
+			};
+			//CBRN Only
+			case 3: {
+				if (_cbrnCount > _fCount) then { 
+					_skip = TRUE;
+				} else {
+					[_cbrnCount, _bld, 15, "Sign_Arrow_Large_Yellow_F"] spawn _fnc_createTemplateMarker
+				};
+			};
+			/*
+			//OPTRE Civ Only
+			case 4: {
+				if (_optrecivCount > _fCount) then { 
+					_skip = TRUE;
+				} else {
+					[_optrecivCount, _bld, 15, "Banner_01_IDAP_F"] spawn _fnc_createTemplateMarker
+				};
+			};
+			//OPTRE Mil Only
+			case 5: {
+				if (_optremilCount > _fCount) then { 
+					_skip = TRUE;
+				} else {
+					[_optremilCount, _bld, 15, "Banner_01_NATO_F"] spawn _fnc_createTemplateMarker
+				};
+			};
+			*/
+
 			
 			// All
 			default {
-				if (_civCount > _fCount || _milCount > _fCount) then {
+				if (_civCount > _fCount || _milCount > _fCount || _cbrnCount > _fCount || _optrecivCount > _fCount || _optremilCount > _fCount) then {
 					_skip = TRUE;
 				} else {
-					if (_civCount > 0) then { [_civCount, _bld, 10, "Sign_Arrow_Large_Pink_F"] spawn _fnc_createTemplateMarker };
 					if (_milCount > 0) then { [_milCount, _bld, 15, "Sign_Arrow_Large_F"] spawn _fnc_createTemplateMarker };
+					if (_civCount > 0) then { [_civCount, _bld, 10, "Sign_Arrow_Large_Pink_F"] spawn _fnc_createTemplateMarker };
+					if (_cbrnCount > 0) then { [_cbrnCount, _bld, 15, "Sign_Arrow_Large_Yellow_F"] spawn _fnc_createTemplateMarker };
+					/*
+					if (_optrecivCount > 0) then { [_optrecivCount, _bld, 15, "Banner_01_IDAP_F"] spawn _fnc_createTemplateMarker };
+					if (_optremilCount > 0) then { [_optremilCount, _bld, 15, "Banner_01_NATO_F"] spawn _fnc_createTemplateMarker };
+					*/
 				};
 			};
 		};

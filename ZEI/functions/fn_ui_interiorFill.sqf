@@ -22,10 +22,15 @@ if (_type isEqualTo 1) then
 	}; 
 if (_type isEqualTo 2) then
 	{ 
-		_fillType = "optre_civ"; 
+		_fillType = "cbrn"; 
 		diag_log _fillType;
 	};
 if (_type isEqualTo 3) then
+	{ 
+		_fillType = "optre_civ"; 
+		diag_log _fillType;
+	};
+if (_type isEqualTo 4) then
 	{ 
 		_fillType = "optre_mil"; 
 		diag_log _fillType;

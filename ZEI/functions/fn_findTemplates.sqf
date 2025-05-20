@@ -62,6 +62,15 @@ if (_tempType isEqualTo "civ") then {
 	});
 };
 
+if (_tempType isEqualTo "cbrn") then {
+	_templates append (switch (_bldType) do {
+		// CBRN Vanilla
+		#include "..\templates\cbrn_vanilla.sqf"
+		
+		default {[]};
+	});
+};
+
 if (_tempType isEqualTo "optre_civ") then {
 	_templates append (switch (_bldType) do {
 		// OPTRE Vanilla
