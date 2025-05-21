@@ -1610,32 +1610,7 @@
 			,[["Land_Shoot_House_Panels_F",[-2.25,-6.875,-3.17508],180],["Land_BagFence_01_long_green_F",[-5,-5.75,-3.26508],180],["Land_PortableCabinet_01_medical_F",[-2.875,-1,-3.17508],270],["Land_BagFence_01_short_green_F",[-3.625,1.125,-3.26508],90],["Land_BagFence_01_short_green_F",[-2.625,1.875,-3.26508],0],["Sponge_01_dry_F",[-3.125,1.125,-2.35949],30],["Land_CampingChair_V2_white_F",[-2.25,-0.125,-3.17508],105],["Land_CampingChair_V2_white_F",[-2.25,0.875,-3.17508],60],["Land_BagFence_01_long_green_F",[-5.25,0.875,-3.26508],180],["Land_PortableLight_02_folded_yellow_F",[-2.73828,1.52344,-3.17508],195],["Land_PortableLight_02_single_folded_yellow_F",[-3,-0.375,-2.35949],120],["Land_Laptop_03_black_F",[-2.75,0.75,-2.35949],255],["Land_CampingTable_white_F",[-2.875,0.375,-3.17508],90]]
 		];
 	};
-	case "Land_DeconTent_01_AAF_F";
-	case "Land_DeconTent_01_CSAT_brownhex_F";
-	case "Land_DeconTent_01_NATO_F": { 
-		[
-			[["TapeSign_F",[-4.74219,-6.64258,-1.3642],90],["TapeSign_F",[-4.86719,6.73242,-1.3642],270],["Land_CampingTable_small_white_F",[3.09595,6.2998,-1.3642],210],["Land_CampingTable_small_white_F",[2.875,2.25,-1.3642],0],["Land_CampingTable_white_F",[-3.08301,-0.477051,-1.3642],90],["Land_MedicalTent_01_floor_light_F",[0.00805664,2.98193,-1.3642],0],["Land_MedicalTent_01_floor_light_F",[0.0419922,-3.10205,-1.3642],0],["Land_CampingChair_V2_white_F",[-3.33301,-5.85205,-1.3642],315],["Land_CampingChair_V2_white_F",[2.61304,5.71289,-1.3642],240],["Land_CampingChair_V2_white_F",[3,3,-1.3642],30],["LayFlatHose_01_Roll_F",[2.4165,-5.72705,-1.3642],255],["StretcherRollerSystem_01_F",[-3.20801,2.89795,-1.3642],0],["WaterSpill_01_Small_New_F",[0.00805664,-2.76807,-1.3642],90],["HazmatBag_01_empty_F",[-1.58301,-6.60205,-1.3642],225],["TapeSign_F",[4.88281,6.73242,-1.3642],270],["TapeSign_F",[4.88281,-6.76758,-1.3642],90],["TapeSign_F",[-3.24219,-8.14258,-1.3642],180],["TapeSign_F",[-3.36719,8.23242,-1.3642],180],["TapeSign_F",[3.38281,8.23242,-1.3642],0],["TapeSign_F",[3.38281,-8.26758,-1.3642],0],["Broom_01_yellow_F",[-1.83301,-6.22705,-1.3642],255],["HazmatBag_01_roll_F",[-2.31104,-5.44678,-1.3642],330],["HazmatBag_01_roll_F",[-2.66797,-5.50977,-1.3642],255],["SpinalBoard_01_black_F",[-2.83301,6.14844,-1.3642],315],["HazmatBag_01_F",[-3.33301,-1.97705,-1.3642],45],["PressureHose_01_Roll_F",[-2.20801,5.39795,-1.3642],210],["DeconShower_01_F",[0,0,-1.3642],0],["CBRNContainer_01_closed_yellow_F",[3,-3.25,-1.34062],285],["CBRNContainer_01_closed_yellow_F",[3,-2.5,-1.34062],240],["ContainmentArea_03_yellow_F",[0.0419922,-2.85205,-1.3642],0]]
-		];
-	};
-	case "Land_DeconTent_01_IDAP_F";
-	case "Land_DeconTent_01_yellow_F";
-	case "Land_DeconTent_01_white_F": {
-		[
-			[["TapeSign_F",[-4.74219,-6.64258,-1.3642],90],["TapeSign_F",[-4.86719,6.73242,-1.3642],270],["Land_CampingTable_small_white_F",[3.09595,6.2998,-1.3642],210],["Land_CampingTable_small_white_F",[2.875,2.25,-1.3642],0],["Land_CampingTable_white_F",[-3.08301,-0.477051,-1.3642],90],["Land_CampingChair_V2_white_F",[3,3,-1.3642],30],["Land_CampingChair_V2_white_F",[2.61304,5.71289,-1.3642],240],["LayFlatHose_01_Roll_F",[2.4165,-5.72705,-1.3642],255],["Tarp_01_Large_Yellow_F",[0.0419922,-3.10205,-1.3642],0],["Tarp_01_Large_Yellow_F",[0.00805664,2.98193,-1.3642],0],["StretcherRollerSystem_01_F",[-3.20801,2.89795,-1.3642],0],["WaterSpill_01_Small_New_F",[0.00805664,-2.76807,-1.3642],90],["HazmatBag_01_empty_F",[-1.58301,-6.60205,-1.3642],225],["TapeSign_F",[-3.24219,-8.14258,-1.3642],180],["TapeSign_F",[4.88281,-6.76758,-1.3642],90],["TapeSign_F",[3.38281,8.23242,-1.3642],0],["TapeSign_F",[-3.36719,8.23242,-1.3642],180],["TapeSign_F",[4.88281,6.73242,-1.3642],270],["TapeSign_F",[3.38281,-8.26758,-1.3642],0],["Broom_01_yellow_F",[-1.83301,-6.22705,-1.3642],255],["HazmatBag_01_roll_F",[-2.66797,-5.50977,-1.3642],255],["HazmatBag_01_roll_F",[-2.31104,-5.44678,-1.3642],330],["SpinalBoard_01_black_F",[-2.83301,6.14844,-1.3642],315],["HazmatBag_01_F",[-3.33301,-1.97705,-1.3642],45],["PressureHose_01_Roll_F",[-2.20801,5.39795,-1.3642],210],["DeconShower_01_F",[0,0,-1.3642],0],["CBRNContainer_01_closed_yellow_F",[3,-2.5,-1.34062],240],["CBRNContainer_01_closed_yellow_F",[3,-3.25,-1.34062],285],["ContainmentArea_03_yellow_F",[0.0419922,-2.85205,-1.3642],0],["Land_CampingChair_V2_white_F",[-3.33301,-5.85205,-1.3642],315]]
-		];
-	};
-	case "Land_DeconTent_01_CSAT_greenhex_F";
-	case "Land_DeconTent_01_NATO_tropic_F";
-	case "Land_DeconTent_01_wdl_F": { 
-		[
-			[["HazmatBag_01_empty_F",[-1.62549,-6.62537,-1.4112],225],["Land_CampingChair_V2_F",[-3.375,-5.875,-1.4112],315],["HazmatBag_01_roll_F",[-2.35303,-5.46997,-1.4112],330],["HazmatBag_01_roll_F",[-2.70996,-5.53296,-1.4112],255],["Broom_01_yellow_F",[-1.87549,-6.25037,-1.38776],255],["TapeSign_F",[-4.78418,-6.66602,-1.4112],90],["TapeSign_F",[-3.28418,-8.16602,-1.4112],180],["PressureHose_01_Roll_F",[-2.25,5.375,-1.4112],210],["DeconShower_01_F",[-0.000488281,-0.000366211,-1.33473],0],["SpinalBoard_01_black_F",[-2.875,6.125,-1.4112],315],["WaterSpill_01_Small_New_F",[-0.0341797,-2.79102,-1.2862],90],["StretcherRollerSystem_01_F",[-3.25049,2.87463,-1.31776],0],["Tarp_01_Large_Green_F",[-0.0341797,2.95898,-1.4112],0],["Tarp_01_Large_Green_F",[-0.0341797,-3.16602,-1.2862],0],["ContainmentArea_03_yellow_F",[0,-2.875,-1.3112],0],["HazmatBag_01_F",[-3.37549,-2.00037,-1.28229],45],["DrainageDeck_01_F",[-0.000488281,-0.000366211,-1.4112],0],["Land_CampingTable_F",[-3.125,-0.5,-1.2822],90],["TapeSign_F",[-4.90918,6.70898,-1.4112],270],["TapeSign_F",[-3.40918,8.20898,-1.4112],180],["LayFlatHose_01_Roll_F",[2.37451,-5.75037,-1.38806],255],["TapeSign_F",[3.34082,-8.29102,-1.4112],0],["TapeSign_F",[4.84082,-6.79102,-1.4112],90],["TrashBagHolder_01_F",[2.87451,-1.87537,-1.27612],0],["Land_CampingChair_V2_F",[3.125,2.875,-1.3182],30],["Land_CampingChair_V2_F",[2.5708,5.68994,-1.4112],240],["Land_CampingTable_small_F",[3.05371,6.27698,-1.3912],210],["Land_CampingTable_small_F",[3,2.125,-1.3182],0],["TapeSign_F",[4.84082,6.70898,-1.4112],270],["TapeSign_F",[3.34082,8.20898,-1.4112],0],["CBRNContainer_01_closed_olive_F",[3.34082,-2.29102,-1.2862],240],["CBRNContainer_01_closed_olive_F",[3.34082,-3.04102,-1.2862],285]]
-		];
-	};
-	case "Land_DeconTent_01_yellow_F": { 
-		[			
-			[["PressureHose_01_Roll_F",[-2.25,5.375,-1.3642],210],["DeconShower_01_F",[0,0,-1.31131],0],["SpinalBoard_01_orange_F",[-2.875,6.125,-1.31748],315],["TrashBagHolder_01_F",[2.875,-1.875,-1.31131],0],["StretcherRollerSystem_01_F",[-3.25,2.875,-1.31748],0],["Tarp_01_Large_Yellow_F",[0,-2.875,-1.3642],0],["Tarp_01_Large_Yellow_F",[0,2.375,-1.34062],0],["HazmatBag_01_empty_F",[-1.625,-6.625,-1.3642],225],["LayFlatHose_01_Roll_F",[2.375,-5.75,-1.34106],255],["ContainmentArea_03_yellow_F",[0,-2.875,-1.31131],0],["HazmatBag_01_F",[-3.375,-2,-1.34062],45],["DrainageDeck_01_F",[0,0,-1.34062],0],["Land_CampingChair_V2_white_F",[3.125,2.875,-1.31748],30],["Land_CampingChair_V2_white_F",[-3.375,-5.875,-1.34106],315],["Land_CampingTable_white_F",[-3.125,-0.5,-1.34062],90],["Land_CampingTable_small_white_F",[3,2.125,-1.31748],0],["Land_FieldToilet_F",[3.5,6.875,-1.34106],105],["HazmatBag_01_roll_F",[-2.70996,-5.53271,-1.34106],255],["HazmatBag_01_roll_F",[-2.35303,-5.46973,-1.34106],330],["Broom_01_yellow_F",[-1.875,-6.25,-1.34076],255]]
-		];
-	};
+	
 	case "Land_DPP_01_mainFactory_old_F": {
 		[
 			[["Land_BagFence_01_corner_green_F",[-20.5688,-17.9297,-4.4158],180],["Land_BagFence_01_long_green_F",[-18.5688,-18.1797,-4.4158],0],["Land_BagFence_01_long_green_F",[-20.9438,-16.1797,-4.4158],90],["Land_BagFence_01_long_green_F",[-21.0156,-3.6626,-4.35067],270],["Land_BagFence_01_long_green_F",[-20.98,-6.5542,-4.36127],90],["Land_BagFence_01_long_green_F",[-20.9438,-13.3047,-4.4158],270],["Land_BagFence_01_corner_green_F",[-10.291,-17.9688,1.38023],180],["Land_CratesWooden_F",[-16.7813,-17.1885,-4.48607],0],["Land_BagFence_01_long_green_F",[-5.42969,-18.2031,1.40174],0],["Land_BagFence_01_long_green_F",[-8.29102,-18.2188,1.38023],0],["Land_BagFence_01_long_green_F",[-15.7109,-18.1689,-4.38677],0],["Land_Pallet_MilBoxes_F",[-11.9126,-7.32471,-4.48607],180],["Land_LuggageHeap_01_F",[-14.124,-10.4453,-4.48607],45],["Land_CanisterPlastic_F",[-15.5879,-3.39258,-4.48607],255],["Land_BagFence_01_long_green_F",[-10.707,-16.3022,1.38023],270],["Land_BagFence_01_long_green_F",[-10.7422,-13.4448,1.43306],270],["Land_BagFence_01_corner_green_F",[-20.7197,9.92627,-4.30103],270],["Land_BagFence_01_long_green_F",[-20.959,5.06836,-4.272],90],["Land_BagFence_01_long_green_F",[-21.0244,-0.769531,-4.33499],270],["Land_BagFence_01_long_green_F",[-20.9697,7.92627,-4.30103],90],["Land_BagFence_01_long_green_F",[-18.9697,10.3013,-4.30103],180],["CamoNet_BLUFOR_F",[-17.1514,0.416016,-4.70321],90],["Land_BagBunker_01_small_green_F",[-18.333,2.20459,-4.66083],90],["Land_BagFence_01_corner_green_F",[-10.415,9.84863,1.39473],270],["Land_Wreck_Truck_F",[-7.27686,12.6353,-9.98798],255],["Land_WoodenCrate_01_stack_x5_F",[-15.188,-1.32568,-4.48607],105],["Land_PaperBox_01_open_boxes_F",[-4.74316,2.07715,1.14823],15],["Land_BagFence_01_long_green_F",[-10.6499,4.98682,1.41624],90],["Land_BagFence_01_long_green_F",[-10.665,7.84863,1.39473],90],["Land_BagFence_01_long_green_F",[-16.0947,10.3013,-4.30103],0],["Land_BagFence_01_long_green_F",[-13.1641,10.3516,-4.25856],0],["Land_BagFence_01_long_green_F",[-8.74902,10.2646,1.39473],0],["Land_BagFence_01_long_green_F",[-5.8916,10.2993,1.44757],0],["Land_BagFence_01_corner_green_F",[5.77148,-17.8462,1.36769],90],["Land_BagFence_01_end_green_F",[14.2939,-17.9751,-4.11747],225],["Land_BagFence_01_long_green_F",[4.10498,-18.2622,1.36769],180],["Land_BagFence_01_long_green_F",[1.24805,-18.2969,1.42052],180],["Land_BagFence_01_long_green_F",[6.02148,-15.8462,1.36769],270],["Land_BagFence_01_round_green_F",[15.6582,-18.8823,-4.11747],15],["Land_BagFence_01_end_green_F",[17.2441,-19.0151,-4.11747],0],["Land_BagFence_01_end_green_F",[18.8877,-18.145,-4.11747],105],["Land_BagFence_01_round_green_F",[19.2969,-16.5718,-4.11747],270],["Land_BagFence_01_round_green_F",[19.7109,-5.81445,-5.54747],300],["Land_BagFence_01_end_green_F",[18.999,-14.9849,-4.11747],255],["Land_BagFence_01_long_green_F",[20.1221,-3.28711,-5.61075],90],["Land_Pallet_F",[-2.73438,0.147949,1.14823],284],["Land_BagFence_01_corner_green_F",[5.62988,9.99658,1.4467],0],["Land_BagFence_01_long_green_F",[3.62988,10.2466,1.4467],180],["Land_BagFence_01_long_green_F",[0.805664,10.2261,1.45354],180],["Land_BagFence_01_long_green_F",[7.73242,9.84082,-0.277184],0],["Land_BagFence_01_long_green_F",[20.1201,-0.472656,-5.56531],270],["Land_BagFence_01_long_green_F",[6.00488,8.24658,1.4467],90]]
@@ -2191,83 +2166,6 @@
 		];
 	};
 
-	// Connector Tents 
-	case "Land_ConnectorTent_01_white_open_F": {
-		[
-			[["Sponge_01_Wet_F",[-0.935059,0.98999,-0.368925],300],["DeconShower_01_F",[-0.0192871,0.0529785,-1.2088],0],["DrainageDeck_01_F",[-0.0205078,0.0391846,-1.20845],0],["LiquidSpraySystem_01_F",[-0.680664,0.0668945,0.38843],0],["WaterSpill_01_Small_New_F",[-0.0192871,0.26123,-1.20845],0],["TrashBagHolder_01_F",[-1.11401,1.177,-1.20892],0]]		
-			
-		];
-	};
-	case "Land_ConnectorTent_01_CSAT_brownhex_open_F": {
-		[
-			[["Sponge_01_Wet_F",[-0.935059,0.98999,-0.368925],300],["DeconShower_01_F",[-0.0192871,0.0529785,-1.2088],0],["DrainageDeck_01_F",[-0.0205078,0.0391846,-1.20845],0],["LiquidSpraySystem_01_F",[-0.680664,0.0668945,0.38843],0],["WaterSpill_01_Small_New_F",[-0.0192871,0.26123,-1.20845],0],["TrashBagHolder_01_F",[-1.11401,1.177,-1.20892],0]]		
-			
-		];
-	};
-	case "Land_ConnectorTent_01_CSAT_greenhex_open_F": {
-		[
-			[["Sponge_01_Wet_F",[-0.935059,0.98999,-0.368925],300],["DeconShower_01_F",[-0.0192871,0.0529785,-1.2088],0],["DrainageDeck_01_F",[-0.0205078,0.0391846,-1.20845],0],["LiquidSpraySystem_01_F",[-0.680664,0.0668945,0.38843],0],["WaterSpill_01_Small_New_F",[-0.0192871,0.26123,-1.20845],0],["TrashBagHolder_01_F",[-1.11401,1.177,-1.20892],0]]		
-			
-		];
-	};
-	case "Land_ConnectorTent_01_NATO_open_F": {
-		[
-			[["Sponge_01_Wet_F",[-0.935059,0.98999,-0.368925],300],["DeconShower_01_F",[-0.0192871,0.0529785,-1.2088],0],["DrainageDeck_01_F",[-0.0205078,0.0391846,-1.20845],0],["LiquidSpraySystem_01_F",[-0.680664,0.0668945,0.38843],0],["WaterSpill_01_Small_New_F",[-0.0192871,0.26123,-1.20845],0],["TrashBagHolder_01_F",[-1.11401,1.177,-1.20892],0]]		
-		];
-	};
-	case "Land_ConnectorTent_01_NATO_tropic_open_F ": {
-		[
-			[["Sponge_01_Wet_F",[-0.935059,0.98999,-0.368925],300],["DeconShower_01_F",[-0.0192871,0.0529785,-1.2088],0],["DrainageDeck_01_F",[-0.0205078,0.0391846,-1.20845],0],["LiquidSpraySystem_01_F",[-0.680664,0.0668945,0.38843],0],["WaterSpill_01_Small_New_F",[-0.0192871,0.26123,-1.20845],0],["TrashBagHolder_01_F",[-1.11401,1.177,-1.20892],0]]		
-		];
-	};
-	case "Land_ConnectorTent_01_AAF_open_F": {
-		[
-			[["Sponge_01_Wet_F",[-0.935059,0.98999,-0.368925],300],["DeconShower_01_F",[-0.0192871,0.0529785,-1.2088],0],["DrainageDeck_01_F",[-0.0205078,0.0391846,-1.20845],0],["LiquidSpraySystem_01_F",[-0.680664,0.0668945,0.38843],0],["WaterSpill_01_Small_New_F",[-0.0192871,0.26123,-1.20845],0],["TrashBagHolder_01_F",[-1.11401,1.177,-1.20892],0]]		
-		];
-	};
-	case "Land_ConnectorTent_01_wdl_open_F": {
-		[
-			[["Sponge_01_Wet_F",[-0.935059,0.98999,-0.368925],300],["DeconShower_01_F",[-0.0192871,0.0529785,-1.2088],0],["DrainageDeck_01_F",[-0.0205078,0.0391846,-1.20845],0],["LiquidSpraySystem_01_F",[-0.680664,0.0668945,0.38843],0],["WaterSpill_01_Small_New_F",[-0.0192871,0.26123,-1.20845],0],["TrashBagHolder_01_F",[-1.11401,1.177,-1.20892],0]]		
-		];
-	};
-
-	//Closed Tents 
-
-	case "Land_ConnectorTent_01_white_closed_F": {
-		[
-			[["Brush_01_yellow_F",[1.15601,1.06897,-1.20892],0],["LayFlatHose_01_Roll_F",[1.07788,0.372986,-1.20892],210],["HazmatBag_01_roll_F",[0.862061,1.37299,-1.20892],0],["HazmatBag_01_roll_F",[1.07202,1.40698,-1.20892],105],["Broom_01_yellow_F",[1.01196,1.18701,-0.547925],30,[293,28,11]],["StretcherRollerSystem_01_F",[-0.95166,0.326294,-1.20845],0],["TrashBagHolder_01_F",[-0.349121,1.25244,-1.2088],135]]
-		];
-	};
-	case "Land_ConnectorTent_01_CSAT_brownhex_closed_F": {
-		[
-			[["Brush_01_yellow_F",[1.15601,1.06897,-1.20892],0],["LayFlatHose_01_Roll_F",[1.07788,0.372986,-1.20892],210],["HazmatBag_01_roll_F",[0.862061,1.37299,-1.20892],0],["HazmatBag_01_roll_F",[1.07202,1.40698,-1.20892],105],["Broom_01_yellow_F",[1.01196,1.18701,-0.547925],30,[293,28,11]],["StretcherRollerSystem_01_F",[-0.95166,0.326294,-1.20845],0],["TrashBagHolder_01_F",[-0.349121,1.25244,-1.2088],135]]
-		];
-	};
-	case "Land_ConnectorTent_01_CSAT_greenhex_closed_F": {
-		[
-			[["Brush_01_yellow_F",[1.15601,1.06897,-1.20892],0],["LayFlatHose_01_Roll_F",[1.07788,0.372986,-1.20892],210],["HazmatBag_01_roll_F",[0.862061,1.37299,-1.20892],0],["HazmatBag_01_roll_F",[1.07202,1.40698,-1.20892],105],["Broom_01_yellow_F",[1.01196,1.18701,-0.547925],30,[293,28,11]],["StretcherRollerSystem_01_F",[-0.95166,0.326294,-1.20845],0],["TrashBagHolder_01_F",[-0.349121,1.25244,-1.2088],135]]
-		];
-	};
-	case "Land_ConnectorTent_01_NATO_closed_F": {
-		[
-			[["Brush_01_yellow_F",[1.15601,1.06897,-1.20892],0],["LayFlatHose_01_Roll_F",[1.07788,0.372986,-1.20892],210],["HazmatBag_01_roll_F",[0.862061,1.37299,-1.20892],0],["HazmatBag_01_roll_F",[1.07202,1.40698,-1.20892],105],["Broom_01_yellow_F",[1.01196,1.18701,-0.547925],30,[293,28,11]],["StretcherRollerSystem_01_F",[-0.95166,0.326294,-1.20845],0],["TrashBagHolder_01_F",[-0.349121,1.25244,-1.2088],135]]
-		];
-	};
-	case "Land_ConnectorTent_01_NATO_tropic_closed_F": {
-		[
-			[["Brush_01_yellow_F",[1.15601,1.06897,-1.20892],0],["LayFlatHose_01_Roll_F",[1.07788,0.372986,-1.20892],210],["HazmatBag_01_roll_F",[0.862061,1.37299,-1.20892],0],["HazmatBag_01_roll_F",[1.07202,1.40698,-1.20892],105],["Broom_01_yellow_F",[1.01196,1.18701,-0.547925],30,[293,28,11]],["StretcherRollerSystem_01_F",[-0.95166,0.326294,-1.20845],0],["TrashBagHolder_01_F",[-0.349121,1.25244,-1.2088],135]]
-		];
-	};
-	case "Land_ConnectorTent_01_AAF_closed_F": {
-		[
-			[["Brush_01_yellow_F",[1.15601,1.06897,-1.20892],0],["LayFlatHose_01_Roll_F",[1.07788,0.372986,-1.20892],210],["HazmatBag_01_roll_F",[0.862061,1.37299,-1.20892],0],["HazmatBag_01_roll_F",[1.07202,1.40698,-1.20892],105],["Broom_01_yellow_F",[1.01196,1.18701,-0.547925],30,[293,28,11]],["StretcherRollerSystem_01_F",[-0.95166,0.326294,-1.20845],0],["TrashBagHolder_01_F",[-0.349121,1.25244,-1.2088],135]]
-		];
-	};
-	case "Land_ConnectorTent_01_wdl_closed_F": {
-		[
-			[["Brush_01_yellow_F",[1.15601,1.06897,-1.20892],0],["LayFlatHose_01_Roll_F",[1.07788,0.372986,-1.20892],210],["HazmatBag_01_roll_F",[0.862061,1.37299,-1.20892],0],["HazmatBag_01_roll_F",[1.07202,1.40698,-1.20892],105],["Broom_01_yellow_F",[1.01196,1.18701,-0.547925],30,[293,28,11]],["StretcherRollerSystem_01_F",[-0.95166,0.326294,-1.20845],0],["TrashBagHolder_01_F",[-0.349121,1.25244,-1.2088],135]]
-		];
-	};
 
 
 // Other
